@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form method="POST">
+        <fieldset>
+            <legend>INFORMATION</legend>
+            NAME <input type="text" name="NAME" placeholder="enter your name"/><br><br>
+            FATHER NAME <input type="text" name="FNAME" placeholder="enter your father's name"/><br><br>
+            EMAIL <input type="email" name="EMAIL" placeholder="abc@xyz.com"/><br><br>
+            PHONE NUMBER <input type="tel" name="PHONE" placeholder="03xxxxxxxxx" pattern="{11}[0-9]"/><br><br>
+            CNIC <input type="tel" name="CNIC" placeholder="xxxxx-xxxxxxx-x" pattern="{5}[0-9]-{7}[0-9]-[0-9]"/><br><br>
+            NAME <input type="date" name="DOB"/><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>QUALIFICATION</legend>
+            QUALIFICATION
+            <select name="QUALIFICATION" id="QUALIFICATION">
+                <option value="INTERMIDIATE">INTERMIDIATE </option>
+                <option value="GRADUATE">GRADUATE</option>
+                <option value="POST GRADUATE">POST GRADUATE </option>
+            </select><br><br>
+            INSTITUTION <input type="text" name="INSTITUTION"/><br><br>
+            YEAR <input type="text" name="YEAR"/><br><br>
+        </fieldset>
+        <fieldset>
+            <input type="submit"/>
+            <input type="reset"/>
+        </fieldset>
+</body>
+</html>
